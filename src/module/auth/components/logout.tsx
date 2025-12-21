@@ -3,7 +3,7 @@
 import { signOut } from "@/lib/auth-client";
 import { useRouter } from "next/navigation";
 
-const LogOut = ({
+const Logout = ({
   children,
   className,
 }: {
@@ -29,4 +29,4 @@ const LogOut = ({
   );
 };
 
-export default LogOut;
+export default Logout;
